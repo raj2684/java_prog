@@ -1,5 +1,9 @@
 package dsa.progs;
-
+/*
+Given an array A[] of n numbers and another number x,
+the task is to check whether or not there exist two elements in A[] whose sum is exactly x.
+O(n2)
+ */
 public class PairTwoSums {
     static boolean chkPair(int[] arr, int size, int x)
     {
